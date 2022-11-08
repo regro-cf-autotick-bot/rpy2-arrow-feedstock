@@ -1,5 +1,5 @@
 {% set name = "rpy2-arrow" %}
-{% set version = "0.0.6" %}
+{% set version = "0.0.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 7c627a733f63ca663ffb5d3290097dd8bab83384fa60620228ff68bd04d5b26a
+  sha256: 5d4e2cbdce75c00b67731c257883457ebe328aa8aec4ef5c39d83f3c64172379
 
 build:
   noarch: python
@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - rpy2 >=3.5
+    - rpy2 >=3.4
     - pyarrow >=5
     - r-arrow >=5
 
@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://github.com/rpy2/rpy2-arrow
-  summary: 'Share Apache Arrow datasets between Python and R.'
+  summary: Share Apache Arrow datasets between Python and R.
   description: |
     `rpy2-arrow` allows you to share the same arrow datasets between Python and
     R without copying the data. This takes advantage of the Arrow C-API.
