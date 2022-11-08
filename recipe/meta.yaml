@@ -20,7 +20,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - rpy2 >=3.5
+    - rpy2 >=3.4
     - pyarrow >=5
     - r-arrow >=5
 
