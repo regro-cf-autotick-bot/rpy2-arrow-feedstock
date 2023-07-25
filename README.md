@@ -1,11 +1,11 @@
-About rpy2-arrow
-================
+About rpy2-arrow-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rpy2-arrow-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/rpy2/rpy2-arrow
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/rpy2-arrow-feedstock/blob/main/LICENSE.txt)
 
 Summary: Share Apache Arrow datasets between Python and R.
 
