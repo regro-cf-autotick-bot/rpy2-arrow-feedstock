@@ -1,5 +1,5 @@
 {% set name = "rpy2-arrow" %}
-{% set version = "0.0.8" %}
+{% set version = "0.1.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bb29487038f5dbbbad256f9cb2cc68e570b7725efa855699144c8a292cb86715
+  sha256: 143ba4e77dfce912d32a60b6a9e5937bda39674cd76e71ee8bc74f6512632b42
 
 build:
   noarch: python
